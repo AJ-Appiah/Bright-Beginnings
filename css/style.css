@@ -1,14 +1,32 @@
+.baskervville-regular {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 .roboto-regular {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.baskervville-regular {
-  font-family: "Baskervville", serif;
-  font-weight: 400;
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-style: normal;
 }
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
 
 #headerline {
   display: flex;
@@ -107,7 +125,7 @@ nav {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  margin-bottom: 150px;
+ /* margin-bottom: 150px; */
 }
 
 #hero-overlay {
@@ -162,6 +180,14 @@ margin-left: 150px;
   background-color: #FFCDD2;
 }
 
+#why-section {
+ padding-top: 100px; 
+ position: relative;
+padding-bottom: 100px; 
+box-sizing: border-box;
+margin-left: 120px;
+}
+
 #why-bright-beginnings {
   display: flex;
   flex-direction: row;
@@ -170,25 +196,102 @@ margin-left: 150px;
   padding: 4rem;
   column-gap: 4rem;
 }
-
+#why-image-overlay {
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+}
 #why-img {
-  height: 450px;
-  width: 50%;
-border-radius: 100px 0 0 0;
+  flex: 0 0 auto;
+  height: 250px;
+  width: 90%;
+}
+#image-itself {
+  min-width: 456px;
+  max-width: 467px;
+  min-height: 590px;
+  max-height: 599px;
+  border-radius: 100px 0 0 0;
 margin-bottom: 15px;
 }
+#mother-container {
+  display: flex;
+  flex-direction: ;
+}
 #why-sticker {
- position: absolute;
+ position: relative;
+ bottom: -200px;
+ left: 290px;
 }
 #why-main-sticker {
-  
+  background-color: #FFCDD2;
+  width: 190px;
+  height: 180px;
+  position: absolute;
+}
+#nub-words {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  color: #42A5F5;
 }
 #why-number {
-
+font-size: 90px; 
+top: 200px; 
+text-align: center;
+font-weight: 700;
+font-style: normal;
 }
 #why-experience {
-
+color: black;
+font-size: 17px;
+text-align: center;
+padding: 0 20px;
+font-weight: 200px;
+margin-bottom: 200px;
+color: #42A5F5;
 }
-#why-image-overlay {
 
+#why-all-words {
+color: rgb(58, 57, 57);
+margin-right: 40px;
+margin-left: 50px;
+}
+
+#words-breakdown {
+ font-family: "Baskervville", serif;
+}
+
+#about-h3 {
+  font-size: 38px;
+  font-weight: 100;
+}
+#about-hh3 {
+font-size: 25px;
+font-weight: 100;
+margin-top: -10px;
+}
+#why-p-tag {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.8rem;
+  margin-bottom: 30px;
+}
+
+#ceo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+}
+#ceo-name {
+color: black;
+font-weight: 700;
+font-style: normal;
+font-size: 20px;
+}
+#title {
+  font-weight: 100;
+  font-size: 14px;
+  color: rgb(112, 106, 106);
 }
